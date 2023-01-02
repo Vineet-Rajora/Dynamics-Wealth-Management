@@ -3,6 +3,9 @@
 
 name: Build and deploy Node.js app to Azure Web App - dmfamassets-dev
 
+env: 
+  CI: false
+
 on:
   push:
     branches:
